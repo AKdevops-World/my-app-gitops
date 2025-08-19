@@ -17,7 +17,7 @@ spec:
       - name: my-app-container
         # This is the image we will update with our CI pipeline
         # Use your Docker Hub username here
-        image: demoak93/my-app:1.0.0
+        image: demoak93/my-app:c7c52a39a69111ce2ba866fbaf0273e3513b1dd4
         ports:
         - containerPort: 80
 ---
